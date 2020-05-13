@@ -230,4 +230,8 @@
     return NO;
 }
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    return true;
+}
+
 @end
